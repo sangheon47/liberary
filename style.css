@@ -1,0 +1,26 @@
+li{margin:0; padding:0;}
+a {color : brown;
+    text-decoration:none;
+}
+ h1{
+  font-size:500%;
+  text-align: center;
+  border:5px solid blue;
+  color:blue;
+    }
+  h3{
+    padding-top: :0;
+    font-size:100px;
+  }
+  #grid{
+    display: grid;
+    grid-template-columns: 150px 1fr;
+  }
+  .content{
+    border-left: 1px solid black;
+  }
+  .content > ol > li{
+    font-size:20px;
+    color:green;
+  }
+  .chart > li {padding:0.3em;}
